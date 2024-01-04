@@ -1,0 +1,56 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-cad {
+    padding: 5px;
+    width: auto;
+}
+.content {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.content div {
+    margin-top: 5px;
+}
+hr {
+    width: 100%;
+    background-color: red;
+}
+.cont-data table, th, td {
+    border: 1px solid #cecece;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+.cont-data table th, td {
+    padding: 5px;
+}
+.cont-data table td img {
+    width: 100px;
+}
+.cont-data {
+    overflow-y: auto;
+    box-shadow: 7px 5px 5px #cecece;
+}
+.cont-header {
+    height: 50px;
+    box-shadow: 0px 5px 5px #cecece;
+}
+input:not([type="color"]),
+select,
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #909090;
+}
+button {
+    width: 100%;
+    cursor: pointer;
+}
+.info-msg {
+    color: rgb(0, 130, 0);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locadora</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/config.js"></script>
+    <script defer src="./js/library/libdom.js"></script>
+    <script defer src="./js/challenge-29.js"></script>
+</head>
+<body>
+    <header class="cont-header">
+        <span data-js="dataCompany"></span> |
+        <span data-js="dataCompany"></span>
+    </header>
+    <section class="content">
+        <form data-js="formCad" class="form-cad">
+            <div>
+                <label for="car-img">Imagem do veículo</label>
+                <br/>
+                <input type="url" data-js="carImg" placeholder="Url da imagem" id="car-img">
+            </div>
+            <div>
+                <label for="car-brand">Marca / Modelo</label>
+                <br/>
+                <select data-js="carBrand" id="car-brand"></select>
+            </div>
+            <div>
+                <label for="car-year">Ano</label>
+                <br/>
+                <select data-js="carYear" id="car-year"></select>
+            </div>
+            <div>
+                <label for="car-plate">Placa</label>
+                <br/>
+                <input type="text" data-js="carPlate" id="car-plate" placeholder="exemplo: ABC-0000">    
+            </div>
+            <div>
+                <label for="car-color">Cor</label>
+                <br/>
+                <input type="color" data-js="carColor" id="car-color">
+            </div>
+            <div>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+        <hr>
+        <div class="cont-data" data-js="contData"></div>
+    </section>
+</body>
+</html>
